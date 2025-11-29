@@ -64,9 +64,6 @@ function App() {
                   <button className="accordion-button" onClick={() => {
                     setId('mb1LI2wcSyU')
                   }}>Motion of electron in electric field</button>
-                  <button className="sub-toggle-button" onClick={toggleAccordion}>
-                Toggle Accordion
-              </button>
           
                 </div>
               )}
