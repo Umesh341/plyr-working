@@ -6,6 +6,19 @@
     
     --plyr-color-main:rgb(53, 175, 64);
 }
+
+.plyr__video-embed iframe {
+    pointer-events: none !important;
+}
+
+.plyr__video-embed {
+    pointer-events: auto !important;
+}
+
+.plyr__controls {
+    pointer-events: auto !important;
+}
+
 @media (max-width:1000px) {
     .player{
         width: 82vw;

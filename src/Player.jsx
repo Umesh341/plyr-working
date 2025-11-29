@@ -1,4 +1,4 @@
-import React , {useEffect}from "react";
+import React from "react";
 import Plyr from "plyr-react";
 import "plyr/dist/plyr.css";
 import "./player.css";
@@ -27,31 +27,9 @@ const options= {
 // learn more https://github.com/sampotts/plyr#the-source-setter
 
 export default function Player(props) {
-
-   // Inject CSS to disable YouTube controls
-  useEffect(() => {
-    const style = document.createElement('style');
-    style.textContent = `
-      .plyr__video-embed iframe {
-        pointer-events: none !important;
-      }
-      .plyr__video-embed {
-        pointer-events: auto !important;
-      }
-      .plyr__controls {
-        pointer-events: auto !important;
-      }
-    `;
-    document.head.appendChild(style);
-
-    return () => {
-      style.remove();
-    };
-  }, []);
   return (
-    <div className="player" 
-    >
-      <MyComponent  a= {props.a} />
+    <div className="player">
+      <MyComponent a={props.a} />
     </div>
   );
 }
