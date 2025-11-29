@@ -47,13 +47,13 @@ function Accordion() {
               {isOpena && (
                 <div className="accordion-content">
                   <button className="accordion-button" onClick={() => {
-                    setId('OoZu7UudGVw')
+                    setId('7zcXPCt8Ck0')
                   }}>Millikan oil drop experiment</button>
                   <button className="accordion-button" onClick={() => {
-                    setId('acFEIXqdUo0')
+                    setId('7zcXPCt8Ck0')
                   }} >Motion of electron in magnetic field</button>
                   <button className="accordion-button" onClick={() => {
-                    setId('Rg9aS2SNuKo')
+                    setId('7zcXPCt8Ck0')
                   }}>Motion of electron in electric field</button>
                   <button className="sub-toggle-button" onClick={toggleAccordion}>
                 Toggle Accordion
@@ -61,7 +61,7 @@ function Accordion() {
               {isOpen && (
                 <div className="sub-accordion-content">
                   <button className="sub-accordion-button" onClick={() => {
-                    setId('lbDoSuxz5jI')
+                    setId('7zcXPCt8Ck0')
                   }}>Button 1</button>
                   <button className="sub-accordion-button">Button 2</button>
                   <button className="sub-accordion-button">Button 3</button>

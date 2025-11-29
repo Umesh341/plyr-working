@@ -54,7 +54,7 @@ function App() {
                     setId('Y_-4yoSdIb8')
                   }}>Millikan oil drop experiment</button>
                   <button className="accordion-button" onClick={() => {
-                    setId('acFEIXqdUo0')
+                    setId('7zcXPCt8Ck0')
                   }} >Motion of electron in magnetic field</button>
                   <button className="accordion-button" onClick={() => {
                     setId('Rg9aS2SNuKo')
