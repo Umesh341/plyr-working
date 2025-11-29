@@ -15,11 +15,9 @@ const videoSrc = {
 };
 const options= {
   
-  quality:{ default: 1080, options: [1080, 720] ,
-    forced: true,        
-     },
+
   controls: ['play','forward', 'progress','mute', 'volume', 'fullscreen','settings'],
-  settings:['quality','speed','loop'],
+  settings:['speed','loop'],
   
 }
 
