@@ -47,19 +47,10 @@ function App() {
         <div className="wrapper">
           <div className="player-container">
           <div>
-      <button onClick={openModal}>Open Modal</button>
+ 
 
        <Player a={id} />
-       <button className="accordion-button" onClick={() => {
-                    setId('Y_-4yoSdIb8')
-                  }}>Millikan oil drop experiment</button>
-                  <button className="accordion-button" onClick={() => {
-                    setId('7zcXPCt8Ck0')
-                  }} >Motion of electron in magnetic field</button>
-                  <button className="accordion-button" onClick={() => {
-                    setId('Rg9aS2SNuKo')
-                  }}>Motion of electron in electric field</button>
-        <button onClick={closeModal}>Close Modal</button>
+      
       
     </div>
             
@@ -85,7 +76,7 @@ function App() {
                     setId('OoZu7UudGVw')
                   }}>Millikan oil drop experiment</button>
                   <button className="accordion-button" onClick={() => {
-                    setId('acFEIXqdUo0')
+                    setId('7zcXPCt8Ck0')
                   }} >Motion of electron in magnetic field</button>
                   <button className="accordion-button" onClick={() => {
                     setId('Rg9aS2SNuKo')
