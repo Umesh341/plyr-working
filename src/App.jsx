@@ -9,19 +9,12 @@ function App() {
   const [count, setCount] = useState(0)
   const [id, setId] = useState("1FbXo7KbMKE");
 
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleAccordion = () => {
-    setIsOpen(!isOpen);
-  };
 
   const [isOpena, setIsOpena] = useState(false);
 
   const toggleAccordion1 = () => {
     setIsOpena(!isOpena);
   };
-
-
 
   const [isDarkMode, setIsDarkMode] = useState(false);
 
@@ -30,16 +23,6 @@ function App() {
     document.body.classList.toggle('dark-mode', !isDarkMode);
   };
 
-
-  const [modalIsOpen, setModalIsOpen] = useState(false);
-
-  const openModal = () => {
-    setModalIsOpen(true);
-  };
-
-  const closeModal = () => {
-    setModalIsOpen(false);
-  };
   return (
     <>
 
@@ -84,15 +67,7 @@ function App() {
                   <button className="sub-toggle-button" onClick={toggleAccordion}>
                 Toggle Accordion
               </button>
-              {isOpen && (
-                <div className="sub-accordion-content">
-                  <button className="sub-accordion-button" onClick={() => {
-                    setId('lbDoSuxz5jI')
-                  }}>Button 1</button>
-                  <button className="sub-accordion-button">Button 2</button>
-                  <button className="sub-accordion-button">Button 3</button>
-                </div>
-              )}
+          
                 </div>
               )}
 
