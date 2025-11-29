@@ -1,0 +1,15 @@
+.player{
+    width: 60vw;
+    
+    z-index: 1;
+    /* pointer-events:none; */
+    
+    --plyr-color-main:rgb(53, 175, 64);
+}
+@media (max-width:1000px) {
+    .player{
+        width: 82vw;
+        
+    
+    }
+}
